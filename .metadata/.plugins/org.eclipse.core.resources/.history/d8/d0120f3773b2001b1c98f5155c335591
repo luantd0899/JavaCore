@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package com.vti.entity;
+
+import com.sun.xml.bind.v2.runtime.Name;
+
+
+
+public enum EPositionName {
+	DEV("DEV"), TEST("TEST"), SCRUMMASTER("SCRUMMASTER"), PM("PM");
+	
+	private String value;
+	
+	private EPositionName(String value) {
+		this.value = value;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+	
+	public static EPositionName of(String value) {
+		for (EPositionName name : EPositionName.values()) {
+			if (name.getValue().equals(value)) {
+				return name;
+			}
+		}
+		return null;
+	}
+}

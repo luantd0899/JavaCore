@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package test;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+/**
+ * @author luant
+ *
+ */
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("text.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("text.txt"));
+        bufferedWriter.write("1");
+        bufferedWriter.write(" 2");
+        bufferedWriter.write(" 4");
+        bufferedWriter.write(" 5");
+        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+
+        int x1 = Integer.parseInt(firstMultipleInput[0]);
+
+        int v1 = Integer.parseInt(firstMultipleInput[1]);
+
+        int x2 = Integer.parseInt(firstMultipleInput[2]);
+
+        int v2 = Integer.parseInt(firstMultipleInput[3]);
+
+        String result = Result.kangaroo(x1, v1, x2, v2);
+
+        bufferedWriter.write(result);
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
+        
+        System.out.println(result);
+    }
+}

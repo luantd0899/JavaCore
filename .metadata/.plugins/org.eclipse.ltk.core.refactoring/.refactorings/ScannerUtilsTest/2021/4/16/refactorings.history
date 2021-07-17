@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ScannerUtils.java&apos; to &apos;Testing_System_Assignment10/src/main/java/Utils&apos;&#x0D;&#x0A;- Original project: &apos;ScannerUtilsTest&apos;&#x0D;&#x0A;- Destination element: &apos;Testing_System_Assignment10/src/main/java/Utils&apos;&#x0D;&#x0A;- Original element: &apos;entity.ScannerUtils.java&apos;" description="Copy compilation unit" destination="=Testing_System_Assignment10/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Utils" element1="/src&lt;entity{ScannerUtils.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1618161557100" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.vti.entity;
+
+/**
+ * @author luant
+ *
+ */
+public enum EUserGender {
+	MALE("M"), FEMALE("F"), UNKNOWN("U");
+	
+	private String value;
+	
+	private EUserGender(String value) {
+		this.value = value;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+	
+	public static EUserGender of(String value) {
+		for (EUserGender gender : EUserGender.values()) {
+			if (value.equals(gender.getValue())) {
+				return gender;
+			}
+		}
+		
+		return null;
+	}
+	
+	
+}

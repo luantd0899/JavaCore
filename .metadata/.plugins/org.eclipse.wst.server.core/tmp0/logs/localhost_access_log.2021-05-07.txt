@@ -1,0 +1,2 @@
+127.0.0.1 - - [07/May/2021:16:01:30 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/May/2021:16:01:31 +0700] "GET /HelloWorldServlet/HelloController HTTP/1.1" 200 29

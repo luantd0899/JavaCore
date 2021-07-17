@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Eclipse\Code\Config"/>
+			<item value="E:\Eclipse\Code\DemoHibernate"/>
+			<item value="E:\Eclipse\Code\Testing_System_Assignment10"/>
+			<item value="C:\Users\luant\Desktop\Java\TemplateFinalExam\src"/>
+			<item value="E:\Eclipse\Code\JavaJdbc\src\jdbc\App.java"/>
+			<item value="E:\Eclipse\Code\TemplateFinalExam\src\main\java\com\vti\frontend\Function.java"/>
+			<item value="E:\Eclipse\Code\TestingSystem_Assignment_10\src\main\java\com\vti\backend\Excercise2.java"/>
+			<item value="E:\Eclipse\Code\jdbc\src\main\java\com\vti\jdbc\Jdbc.java"/>
+			<item value="E:\Eclipse\Code\TemplateFinalExam\src\main\java\com\vti\backend\presentation\UserController.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.vti.DemoConfigHibernate"/>
+			<item value="com.vti.lesson5"/>
+			<item value="com.vti.GroupUser"/>
+			<item value="com.vti.ConfigHibernate"/>
+			<item value="com.vti.Config"/>
+		</list>
+		<list key="groupId">
+			<item value="com.vti"/>
+		</list>
+		<list key="artifactId">
+			<item value="DemoConfigHibernate"/>
+			<item value="lesson5"/>
+			<item value="GroupUser"/>
+			<item value="ConfigHibernate"/>
+			<item value="Config"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.vti"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="HelloWorldSP"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>
